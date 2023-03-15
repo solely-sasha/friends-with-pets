@@ -14,10 +14,5 @@ export default function FriendsList() {
     );
   });
 
-  return (
-    <div>
-      <h1>Friends With Pets</h1>
-      {friendList}
-    </div>
-  );
+  return <div className="friend-list">{friendList}</div>;
 }

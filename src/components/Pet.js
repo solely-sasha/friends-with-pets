@@ -2,9 +2,13 @@ import React from "react";
 
 export default function Pet(props) {
   return (
-    <div>
-      <p>Pet Name: {props.pet.name}</p>
-      <p>Pet Breed: {props.pet.breed}</p>
+    <div className="pet">
+      <p>
+        Name: <span>{props.pet.name}</span>
+      </p>
+      <p>
+        Breed: <span>{props.pet.breed}</span>
+      </p>
     </div>
   );
 }
